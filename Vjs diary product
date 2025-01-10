@@ -1,0 +1,122 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJS Dairy Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to VJS Dairy Products</h1>
+    <p>Freshness You Can Taste, Quality You Can Trust</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#products">Our Products</a>
+    <a href="#contact">Contact</a>
+    <a href="#careers">Careers</a>
+</nav>
+
+<div class="container">
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <h2>About VJS Dairy Products</h2>
+        <p>At VJS Dairy Products, our goal is to provide the freshest and highest-quality dairy products to families across the nation. Based in <strong>VJS State</strong>, we are committed to supporting local farmers and promoting sustainable practices. Our wide range of products includes milk, cheese, yogurt, butter, and ice cream.</p>
+        <p>With years of experience in the dairy industry, we have earned the trust of our customers by prioritizing quality, freshness, and customer satisfaction. Join us on our journey as we deliver natural and delicious dairy products that everyone can enjoy.</p>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="section">
+        <h2>Our Products</h2>
+        <ul>
+            <li><strong>Milk:</strong> Fresh and wholesome milk, available in various sizes.</li>
+            <li><strong>Cheese:</strong> A variety of cheese, from cheddar to mozzarella.</li>
+            <li><strong>Yogurt:</strong> Creamy and flavorful yogurt in different flavors.</li>
+            <li><strong>Butter:</strong> Pure and rich butter for your cooking and baking needs.</li>
+            <li><strong>Ice Cream:</strong> Indulgent and creamy ice cream in a range of flavors.</li>
+        </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <p><strong>Address:</strong> VJS State</p>
+            <p><strong>Phone:</strong> VJSRI</p>
+            <p><strong>Email:</strong> contact@vjsdairy.com</p>
+        </div>
+    </div>
+
+    <!-- Careers Section -->
+    <div id="careers" class="section">
+        <h2>Careers at VJS</h2>
+        <p>Join the VJS family and be a part of our mission to deliver top-quality dairy products. We are looking for passionate and dedicated individuals to grow with us.</p>
+        <p>For more information about current openings, visit our Indeed page: <a href="https://www.indeed.com/company/vjs-dairy-products" target="_blank">(123) Careers at VJS on Indeed</a>.</p>
+    </div>
+</div>
+
+<footer>
+    <p>VJS Dairy Products &copy; 2025 | Fresh, Local, and Trusted</p>
+</footer>
+
+</body>
+</html
